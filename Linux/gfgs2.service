@@ -1,0 +1,7 @@
+[Unit]
+Description=My CPU Stress Command 11111
+
+[Service]
+ExecStart= dd if=/dev/zero of=/dev/null
+MemoryMax=200M
+CPUShares=2048
